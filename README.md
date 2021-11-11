@@ -10,13 +10,13 @@
 	### Open terminal point to the directory that this file is located.
 	Type the following command:
 	
-	`g++ -o dsss dsss.cc`
+	`./build.sh`
 	
 ## To run:
 
 	### Type the following command:
 	
-	`./dsss`
+	`./example.redmars`
 
 ## Examples:
 
