@@ -1,9 +1,10 @@
 # A Simple Direct-Sequence Spread Spectrum (DSSS) Solution in C++
 
 ## Included Documents
-	- dsss.h
-	- dsss.cc
-	- README.txt
+	- /include/dsss.hpp
+	- /src/dsss.cpp
+	- /tests/dsssTestCases.cpp
+	- README.md
 	
 ## To compile:
 	
@@ -13,7 +14,7 @@
 	`./build.sh`
 	
 	**Note** Tests will run automatically at build
-	
+
 ## To run:
 
 	### Type the following command:
