@@ -12,11 +12,13 @@
 	
 	`./build.sh`
 	
+	**Note** Tests will run automatically at build
+	
 ## To run:
 
 	### Type the following command:
 	
-	`./example.redmars`
+	`./tests.redmars`
 
 ## Examples:
 
