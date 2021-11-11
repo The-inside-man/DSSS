@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////
 
 // Included headers
-#include "../include/dsss.h"
+#include "../include/dsss.hpp"
 
 // Namespace being used
 using namespace std; 

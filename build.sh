@@ -1,1 +1,1 @@
-g++ -o example.redmars ./src/dsss.cc
+g++ -o example.redmars ./src/dsss.cpp
