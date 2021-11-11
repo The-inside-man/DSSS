@@ -1,28 +1,24 @@
-//////////////////////////////////////////////////////////
-//	Name:			Jacob Brown		//
-//	Title:			DSSS			//
-//	Updated:		26 February 2016	//
-//////////////////////////////////////////////////////////
+# A Simple Direct-Sequence Spread Spectrum (DSSS) Solution in C++
 
-Included Documents:
+## Included Documents
 	- dsss.h
 	- dsss.cc
 	- README.txt
 	
-To compile:
+## To compile:
 	
-	Open terminal point to the directory that this file is located.
+	### Open terminal point to the directory that this file is located.
 	Type the following command:
 	
-	g++ -o dsss dss.cc
+	`g++ -o dsss dsss.cc`
 	
-To run:
+## To run:
 
-	Type the following command:
+	### Type the following command:
 	
-	./dsss
+	`./dsss`
 
-Examples:
+## Examples:
 
 	The user will be presented with an original sequence of bits,
 	encoded bit, encoded bits with erroneous bits due to a 10% 
