@@ -1,1 +1,2 @@
-g++ -o example.redmars ./src/dsss.cpp
+g++ -o tests.redmars ./tests/dsssTestCases.cpp ./src/dsss.cpp
+./tests.redmars

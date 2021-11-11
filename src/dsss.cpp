@@ -1,8 +1,8 @@
-//////////////////////////////////////////////////////////
-//	Name:			Jacob Brown		//
-//	Title:			DSSS			//
+//////////////////////////////////////////
+//	Name:			Jacob Brown			//
+//	Title:			DSSS				//
 //	Updated:		26 February 2016	//
-//////////////////////////////////////////////////////////
+//////////////////////////////////////////
 
 // Included headers
 #include "../include/dsss.hpp"
@@ -138,25 +138,4 @@ string x_or(char x, char y){
 	} else{
 		return "1";
 	}
-}
-
-// Test Cases
-int main(){
-	// Main sequence of bits
-	string s = "0100";
-	
-	cout << "_______________________________________________________________\n" << endl;
-	
-	cout << "Original Sequence \t: " << s << endl;
-	
-	// Encoded sequence
-	cout << "Encoded \t\t: " << encoder(s, "110") << endl;
-	
-	// Encoded sequence with 10% error
-	cout << "10% Error applied \t: " << channel(encoder(s, "110"), 10) << endl;
-	
-	// Decoded sequence of encoded sequence
-	cout << "Decoded Sequence \t: " << decoder(encoder(s, "110"), "110") << endl;
-	
-	cout << "_______________________________________________________________" << endl;
 }
